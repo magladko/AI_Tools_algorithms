@@ -1,0 +1,36 @@
+Specyfikacja programu k-NN:
+
+TERMIN: tydzien 
+
+Dane: iris 
+
+treningowe: iristrain.csv
+testowe: iristest.csv
+
+
+Opis programu:
+
+Program ma wczytac dane z podanego pliku tekstowego (ma byc ogolny, czyli
+ma sam zrozumiec z pliku ile jest atrybutow czyli ma dzialac nie tylko dla
+iris, ale zakladamy, ze wszystkie atrybuty poza decycyjnym sa numeryczne),
+ktory traktuje jako "treningowy".
+
+Następnie program wczyta wartość parametru k od użytkownika, a potem zaklasyfikuje
+wszystkie przykłady wczytane z pliku tekstowego zawierającego zbiór testowy algorytmem k-
+NN (dla metryki euklidesowej).
+
+Jako wynik ma wypisać liczbę prawidłowo zaklasyfikowanych przykładów oraz dokładność
+eksperymentu wyrażoną w procentach.
+
+Program ma tez dostarczac interfejs uzytkownika, w ktorym mozna
+wielokrotnie wpisac recznie wektor atrybutow i dowiedziec sie jak bylby
+taki wektor zaklasyfikowany (nalezy uzywac tego interfejsu do recznego
+testowania programow studentow).
+
+Nie mozna uzywac zadnych bibliotek ML, wszystko ma byc zaimplementowane od
+zera w petlach, ifach, odleglosc tez sam ma liczyc uzywajac dzialan
+arytmentycznych (do operacji na liczbach mozna uzywac java.lang.Math), etc.
+
+Dodatkowo do chętnych:
+Dla ambitniejszych mozna dodac: "zrob wykres (w czymkolwiek, np. excelu)
+zaleznosci accuracy od k i omow go".
