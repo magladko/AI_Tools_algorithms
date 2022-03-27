@@ -1,0 +1,34 @@
+Specyfikacja programu Perceptron:
+
+TERMIN: tydzień (2 dla spóźnialskich)
+
+Dane: iris 
+
+treningowe: iristrain.csv (dla dwóch zadanych na wejściu klas)
+testowe: iristest.csv (dla tych samych dwóch klas)
+
+
+Opis programu:
+
+Program ma wczytać dane z podanego pliku tekstowego.
+
+Następnie dla dwóch ustalonych ustalonych gatunków (Species) irysów,
+ ma nauczyć się je rozróżniać za pomocą algorytmu Perceptrona. 
+
+Kod ma być generyczny (czyli np. liczba wymiarów ma być automatycznie
+dostosowana do wymiarowości danych treningowych - wczytanych z pliku w formacie csv: w konwencji w jakiej zapisane są dane w pliku  iristrain.csv)
+
+Następnie program zaklasyfikuje wszystkie przykłady wczytane z pliku tekstowego zawierającego zbiór testowy.
+
+Jako wynik ma wypisać liczbę prawidłowo zaklasyfikowanych przykładów oraz dokładność
+eksperymentu wyrażoną w procentach.
+ 
+Proszę o zapewnienie prostego GUI do podawania ręcznego wektorów do
+klasyfikacji (używać się będzie tego do oceny/testowania).
+
+Nie mozna uzywac zadnych bibliotek ML, wszystko ma byc zaimplementowane od
+zera w petlach, ifach, odleglosc tez sam ma liczyc uzywajac dzialan
+arytmentycznych (do operacji na liczbach mozna uzywac java.lang.Math), etc.
+Można używać java.util.
+
+
