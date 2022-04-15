@@ -1,0 +1,34 @@
+*** 
+
+Specyfikacja programu "Grupowanie k-Means"
+
+TERMIN: 2 tygodnie 
+
+*** 
+
+
+Dane wejściowe: iris_all.csv
+
+1. Program ma wczytać dane z podanego pliku tekstowego.
+2. Brać od użytkownika wartość parametru K.
+
+Opis programu:
+
+1. Należy zaimplementować (bez uzycia żadnych zewnętrzych bibliotek itp.) algorytm k-Means.
+2. Wejściwo używamy danych z pliku iris (wtedy przy grupowaniu należy ignorowac atrybut decyzyjny - czyli nazwę irysów)
+UWAGA: program powinien sam zczytywać wymiar dostarczonych danych -- tak, aby dało się też go odpalić na prostym pliku testowym "dane_testowe.csv".
+
+3. Program ma wyswietlac:
+a) przy kazdej iteracji: sume kwadratow odleglosci od "swoich" centroidow
+(powinna malec w miare pracy algorytmu)
+b) na koncu: wyswietlac sklady klastrow oraz wyswietlac jakas miare "czystosci" klastrow:
+proporcje procentowe klas.
+
+Nie mozna uzywac zadnych bibliotek ML, wszystko ma byc zaimplementowane od
+zera w petlach, ifach, odleglosc tez sam ma liczyc uzywajac dzialan
+arytmentycznych (do operacji na liczbach mozna uzywac java.lang.Math), etc.
+Można używać java.util.
+
+
+
+
