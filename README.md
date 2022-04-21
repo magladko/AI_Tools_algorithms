@@ -1,2 +1,2 @@
 # NAI
-PJAKT NAI mini-projects
+PJATK NAI mini-projects
