@@ -1,5 +1,4 @@
 # NAI
-PJATK NAI mini-projects
+PJAIT Artificial Intelligence Tools – mini-projects
 
-Narzędzia Sztucznej Inteligencji
-Artificial Intelligence Tools
+Examples of implementation of basic AI algorithms.
