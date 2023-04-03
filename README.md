@@ -1,4 +1,4 @@
-# Simple Python implementations of basic AI algorithms
+# Basics of AI tools and algorithms
 
 Examples of implementation of basic AI algorithms.
 
