@@ -1,4 +1,4 @@
-# PJAIT Artificial Intelligence Tools – mini-projects
+# Simple Python implementations of basic AI algorithms
 
 Examples of implementation of basic AI algorithms.
 
